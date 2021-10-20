@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./0.common.css">
+    <link rel="stylesheet" href="./1.selection.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="head-logo d-flex">
+                <img src="./img/logo 1.png" alt="">
+            </div>
+            <ul class="nav-list light-brown">
+                <li class="nav-active">模擬測驗</li>
+                <li>考試列表</li>
+                <li>
+                    <div class="nav-icon member-icon"><img src="./icon/member.png" alt=""></div>
+                    會員中心
+                </li>
+                <li>
+                    <div class="nav-icon logout-icon"><img src="./icon/logout.png" alt=""></div>
+                    登出
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="sel-wrap d-flex">
+            <div class="selection">
+                <p class="title">模擬測驗</h2>
+                <div class="switch d-flex">
+                    <div id="sb-n" class="switch-btn sbtn-selected">一般
+                    </div>
+                    <div id="sb-a" class="switch-btn">進階
+                    </div>
+                </div>
+                <ul class="sel-list sel-normal">
+                    <li>
+                        <p class="t-l">選擇測驗科目:</p>
+                    </li>
+                    <li class="sel-sel sel-focus d-flex">
+                        <div class="select-title">學制</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇學制</option>
+                            <option value="elementary">國小</option>
+                            <option value="junior">國中</option>
+                            <option value="senior">高中</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">年級</div>
+                        <select class="t-l" name="" id="" disabled>
+                            <option value="default" hidden>請選擇年級</option>
+                            <option value="">1年級</option>
+                            <option value="">2年級</option>
+                            <option value="">3年級</option>
+                            <option value="">4年級</option>
+                            <option value="">5年級</option>
+                            <option value="">6年級</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">領域</div>
+                        <select class="t-l" name="" id="" disabled>
+                            <option value="default" hidden>請選擇領域</option>
+                            <option value="">國語文</option>
+                            <option value="">英語文</option>
+                            <option value="">數學</option>
+                            <option value="">自然</option>
+                            <option value="">藝術</option>
+                            <option value="">社會</option>
+                        </select>
+                    </li>
+
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">題數</div>
+
+                        <ul class="quantity-list d-flex">
+                            <li class="radio"><input type="radio" name="quantity" value="5" disabled>5題</li>
+                            <li class="radio"><input type="radio" name="quantity" value="10" disabled>10題</li>
+                            <li class="radio"><input type="radio" name="quantity" value="15" disabled>15題</li>
+                            <li class="radio"><input type="radio" name="quantity" value="20" disabled>20題</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel-list sel-advance" hidden>
+                    <li>
+                        <p class="t-l">選擇測驗科目:</p>
+                    </li>
+                    <li class="sel-sel sel-focus d-flex">
+                        <div class="select-title">學制</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇學制</option>
+                            <option value="">國小</option>
+                            <option value="">國中</option>
+                            <option value="">高中</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex sel-mul">
+                        <div class="select-title">年級</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇年級</option>
+                            <option value="">1年級</option>
+                            <option value="">2年級</option>
+                            <option value="">3年級</option>
+                            <option value="">4年級</option>
+                            <option value="">5年級</option>
+                            <option value="">6年級</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">學習內容</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇學習內容</option>
+                            <option value="">國小</option>
+                            <option value="">國中</option>
+                            <option value="">高中</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">主題</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇主題</option>
+                            <option value="">國小</option>
+                            <option value="">國中</option>
+                            <option value="">高中</option>
+                        </select>
+                    </li>
+                    <li class="sel-sel d-flex">
+                        <div class="select-title">難度</div>
+                        <select class="t-l" name="" id="">
+                            <option value="default" hidden>請選擇難度</option>
+                            <option value="">國小</option>
+                            <option value="">國中</option>
+                            <option value="">高中</option>
+                        </select>
+                    </li>
+
+                </ul>
+
+                <div class="btn btn-pri">下一步</div>
+            </div>
+            <div class="ads d-flex">
+                <div class="ads-wrap">
+                    <div class="ads-display">
+                        <img src="./img/Rectangle 7.png" alt="">
+                    </div>
+                    <ul class="dot-list d-flex">
+                        <li class="dot dot-active"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./js/1.selection.js"></script>
+
+</body>
+
+</html>

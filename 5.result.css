@@ -1,0 +1,127 @@
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #CE976F;
+    text-align: center;
+    margin: 50px auto 28px;
+}
+.grade{
+    width: 164px;
+    height: 90px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    border-bottom: 4px solid #CE976F;
+    line-height: 90px;
+}
+.grade span{
+    font-size: 48px;
+}
+table{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 0 1px #CE976F;
+    border-radius: 0 6px 6px 6px;
+    border-collapse:collapse;
+}
+.tb-top{
+    width: 324px;
+    margin: 40px auto 18px;
+    border-radius: 6px;
+}
+
+.tr-th{
+    /* border-radius: 0 6px 0 0; */
+    overflow: hidden;
+    
+}
+.tb-top th{
+    width: 33%;
+}
+th{
+    width: 20%;
+    height: 46px;
+    background-color: #F0E0D4;
+    font-size: 18px;
+    font-weight: 400;
+    flex-basis: 30%;
+}
+.tb-top th:first-child{
+    border-radius: 6px 0 0 0;
+}
+th:last-child{
+    border-radius: 0 6px 0 0;
+}
+td{
+    height: 46px;
+    background-color: #fff;
+}
+td:first-child{
+    border-radius: 0 0 0 6px;
+}
+td:last-child{
+    border-radius: 0 0 6px 0;
+}
+
+.table-title{
+    width: 136px;
+    height: 46px;
+    background-color: #CE976F;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    line-height: 46px;
+    box-shadow: 0 0 0 1px #CE976F;
+}
+
+.icon-answer{
+    width: 32px;
+    height: 32px;
+}
+td:last-child{
+    justify-content: center;
+    align-items: center;
+}
+.wrong-answer{
+    color: #EB5757;
+}
+
+/* ------btn-------------------- */
+.btn-group{
+    margin: 42px auto;
+}
+
+/* ads */
+.ads-2{
+    width: 746px;
+    height: 90px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto 16px;
+}
+
+.dot-list{
+    width: 182px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 17px;
+    margin: 16px auto 60px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: #CE976F;
+    border-radius: 50%;
+    margin: 8px;
+}
+.dot-active{
+width: 15px;
+height: 15px;
+background-color: #fff;
+border:2px solid #CE976F;
+}

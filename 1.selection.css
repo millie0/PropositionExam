@@ -1,0 +1,179 @@
+
+
+/* selection------------------------------------------- */
+.sel-wrap{
+justify-content: space-around;
+padding: 50px 180px;
+}
+.selection{
+    width: 60%;
+    margin: 0 70px;
+}
+.title{
+    color: #CE976F;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.switch{
+    width: 195px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E0E0;
+    margin:0 auto
+
+}
+.switch-btn{
+    width: 95px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    margin: 1px;
+}
+.sbtn-selected{
+    background-color: #CE976F;
+    color: #fff;
+}
+.sel-list{
+    /* padding: 0 200px; */
+    margin: 34px auto 50px;
+}
+
+.sel-sel{
+    width: 612px;
+    height: 40px;
+    background-color: #fff;
+    padding: 0 6px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 24px auto;
+}
+.select-title{
+    width: 77px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 18px;
+    border-right: 1px solid #CE976F;
+    letter-spacing: .5px;
+}
+select option{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width: 300px;
+}
+.quantity-list{
+    height: 100%;
+    padding-left: 16px;
+    align-items: center;
+}
+.quantity-list>li{
+    width: 76px;
+    height: 18px;
+    color: #C4C4C4;
+    font-size: 18px;
+    margin-right: 16px;
+    padding-right: 32px;
+    border-right: 1px solid #C4C4C4;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}
+.quantity-list>li:last-child{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sel-sel>select{
+    padding-left: 20px ;
+    width: 85%;
+    height: 36px;
+    color: #C4C4C4;
+    
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    border: 0;
+    background: url("./icon/select-down-gray.svg") no-repeat 98.5% center transparent;
+}
+.sel-focus select{
+    color: #CE976F;
+    background: url("./icon/select-down-db.svg") no-repeat 98.5% center transparent;
+}
+/* js寫focus的時候加入sel-sel的class */
+.sel-focus{
+    border: 1px solid #CE976F;
+}
+/* 複選+icon */
+.sel-mul select{
+    background: url("./icon/sel-mul.svg") no-repeat right center transparent;
+}
+.sel-sel>select:focus{
+    outline: none;
+}
+
+
+.quantity-list input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+/* .quantity-list input.active{
+    border: 1px solid #CE976F;
+} */
+.quantity-list input:checked{
+    border: 3px solid #fff;
+    background-color: #CE976F;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px #CE976F ;
+}
+/* ads----------- */
+.ads{
+    /* align-items: center; */
+    margin: 160px 70px;
+}
+.ads-display {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.dot-list{
+    width: 182px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 17px;
+    margin: 16px auto;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: #CE976F;
+    border-radius: 50%;
+    margin: 8px;
+}
+.dot-active{
+width: 15px;
+height: 15px;
+background-color: #fff;
+border:2px solid #CE976F;
+}
+
+.selection .btn-pri{
+    margin: 0 auto;
+}
